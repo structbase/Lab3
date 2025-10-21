@@ -12,11 +12,24 @@ body {
 } */
 
 
+
 body{
     font-family: "Outfit", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
     background-color: #d5e1ef;
-
 }
+
+.custom-text-h2-size{
+    
+}
+
+.custom-text-h2-color{
+    color:#1F314F;
+}
+.custom-text-p-color{
+    color:#68778D;
+}
+
+
 /* body {
     background-color: #d5e1ef;
     display: flex;
