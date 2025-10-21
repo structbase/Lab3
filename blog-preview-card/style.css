@@ -1,4 +1,8 @@
-html,
+body {
+    background-color: #f4d04e;
+}
+
+/* html,
 body {
     height: 100%;
     margin: 0;
@@ -87,4 +91,4 @@ h1:hover {
         width: min(94vw, 320px);
         padding-bottom: 16px;
     }
-}
+} */
