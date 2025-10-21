@@ -19,7 +19,7 @@ body{
 }
 
 .custom-text-h2-size{
-    
+    font-size: 1.4rem;
 }
 
 .custom-text-h2-color{
@@ -29,6 +29,9 @@ body{
     color:#68778D;
 }
 
+.custom-card-background-color{
+    background-color: #FFFFFF;
+}
 
 /* body {
     background-color: #d5e1ef;
