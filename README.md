@@ -66,10 +66,23 @@ qr-component/
 
 ---
 
+# Frontend Refactoring Lab – Bootstrap
+
+## Projects
+
+* **QR Code Component** – refactored to use Bootstrap card, text utilities, spacing, and responsive layout.
+* **Blog Preview Card** – refactored to use Bootstrap card, badge, typography, spacing, flex utilities, and responsive grid.
+
 ## Reflection
 
-* Using Figma designs made it easier to structure the layout and match spacing accurately.
-* Challenges included making the cards responsive and aligning elements properly.
-* These projects helped reinforce semantic HTML, Flexbox, responsive design, and working with custom fonts.
+**1. Challenges faced when refactoring:**
 
----
+* Some challenges with this project included handling fixed widths and making elements responsive with Bootstrap, as well as adjusting the shadow radius in the Blog Preview Card.
+
+**2. How Bootstrap simplified styling:**
+
+* Bootstrap simplified styling through utility classes like `text-center`, `fw-bold`, `text-muted`, `img-fluid`, `d-flex`, and components like `card`. Applying these classes directly to elements made them more flexible and responsive without writing custom CSS for every style.
+
+**3. When custom CSS might be preferred:**
+
+* CSS is still very useful. Although Bootstrap provides pre-made styling and sizing for elements, CSS allows fine-grained control. For example, when controlling font size, `fs-4` was too large and `fs-5` too small, so I created a custom style in CSS with the exact size I wanted (converted to `rem`) and applied it alongside Bootstrap classes. Additional CSS is also important for maintaining separation of concerns and customizing beyond what Bootstrap provides.
