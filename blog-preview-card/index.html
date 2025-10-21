@@ -17,19 +17,28 @@
         ></script>
         <link rel="stylesheet" href="./style.css" />
     </head>
-    <body class="d-flex justify-content-center align-items-center vh-100 background">
-        <main class="card border-1 border-black rounded-4 p-3 custom-border-shadow" style="width: 24rem">
+    <body
+<body class="d-flex justify-content-center align-items-center min-vh-100 background">
+    
+        <main
+            class="card border-1 border-black rounded-4 p-3 custom-border-shadow"
+            style="max-width: 24rem"
+        >
             <img
-                class="card-img-top rounded-4"
-                style="width: 22rem"
+                class="card-img-top rounded-4 img-fluid"
                 src="./assets/images/illustration-article.svg"
                 alt="Illustration representing an article about web development"
             />
             <div class="card-body p-0">
-                <h5 class="custom-background-text fw-bold small m-3">Learning</h5>
-                <p class=" small">Published 21 Dec 2023</p>
-                <h1 class="card-title fs-3 fw-bolder">HTML & CSS foundations</h1>
-                <p class="text-muted ">
+                <span
+                    class="badge bg-warning text-dark fw-semibold p-2 rounded-3 m-2 mt-4 mb-3 "
+                    >Learning</span
+                >
+                <p class="small mb-3">Published 21 Dec 2023</p>
+                <h1 class="card-title fs-3 fw-bolder mb-3">
+                    HTML & CSS foundations
+                </h1>
+                <p class="text-muted mb-4">
                     These languages are the backbone of every website, defining
                     structure, content, and presentation.
                 </p>
@@ -38,7 +47,7 @@
                         class="profile-img"
                         src="./assets/images/image-avatar.webp"
                         alt="user profile photo"
-                        style="width: 40px; height: 40px; border-radius: 50%;"
+                        style="width: 40px; height: 40px; border-radius: 50%"
                     />
                     <h4 class="m-0 fw-bolder small">Greg Hooper</h4>
                 </div>
