@@ -11,26 +11,25 @@ body {
     padding: 0;
 } */
 
-
-
-body{
-    font-family: "Outfit", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+body {
+    font-family: "Outfit", system-ui, -apple-system, "Segoe UI", Roboto,
+        sans-serif;
     background-color: #d5e1ef;
 }
 
-.custom-text-h2-size{
+.custom-text-h2-size {
     font-size: 1.4rem;
 }
 
-.custom-text-h2-color{
-    color:#1F314F;
+.custom-text-h2-color {
+    color: #1f314f;
 }
-.custom-text-p-color{
-    color:#68778D;
+.custom-text-p-color {
+    color: #68778d;
 }
 
-.custom-card-background-color{
-    background-color: #FFFFFF;
+.custom-card-background-color {
+    background-color: #ffffff;
 }
 
 /* body {
@@ -39,7 +38,7 @@ body{
     align-items: center;
     justify-content: center;
     min-height: 100vh; */
-    /* font-family: "Outfit", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+/* font-family: "Outfit", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
 } */
 
 /* .main-container {
